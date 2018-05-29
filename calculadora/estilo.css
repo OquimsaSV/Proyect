@@ -1,0 +1,275 @@
+html { width: 100%; height: 100%; margin: 0px; padding: 0px; }
+
+body
+{ 
+	width: 100%; 
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+	overflow: auto; 
+	font-family: Arial, Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px; 
+	background-repeat: repeat-x;
+}
+
+h1 { font-size: 12pt; font-weight: bold; text-transform: uppercase; color: #000000; margin: 3pt; }
+h2 { font-size: 12pt; font-weight: bold; text-transform: uppercase; color: #000000; margin: 2pt; }
+h3 { font-size: 11pt; font-weight: bold; text-transform: uppercase; color: #000000; margin: 2pt; }
+h4 { font-size: 10pt; font-weight: bold; color: #000000; margin: 2pt; }
+h5 { font-size: 10pt; color: #000000; margin: 1pt; }
+
+form { margin: 0px; padding: 0px; }
+
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left; }
+li { margin-left: 2px; list-style: square inside; color: #2F5376; }
+hr { height: 2px; border: 1px #660000 solid; }
+
+th 
+{
+	background-color: #2727d4;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.tablaHeader
+{
+	border: 0;
+	padding: 0;
+	width: 780px;
+}
+
+.tablaMaster
+{
+	border: 0;
+	padding: 0;
+	width: 780px;
+}
+
+.tablaContenidoMaster
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 780px;
+	vertical-align: top;
+}
+
+.bordeTabla 
+{
+	/*border: 1px solid #003099;*/
+	border: 1px solid #304362;
+}
+
+.tablaDuplicador
+{
+	border: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+.tablaDuplicador td
+{
+	border: 1px #000000 solid;
+}
+
+.tablaDuplicador th
+{
+	border: 1px #000000 solid;
+}
+
+.tdPar 
+{
+	background-color: #FFFFFF;
+	border-bottom: #FFFFFF 1px solid;
+	border-left: #FFFFFF 1px solid;
+}
+
+.tdImpar {
+	background-color: #ccccfb;
+	border-bottom: #FFFFFF 1px solid;
+	border-left: #FFFFFF 1px solid;
+}
+
+.tdSelected 
+{
+	background-color: #d1f9f0;
+	border-bottom: #FFFFFF 1px solid;
+	border-left: #FFFFFF 1px solid;
+}
+
+.tituloPanel
+{
+	background-color: #0000C0;
+	color: #FFFFFF;
+	width: 100%;
+	font-weight: bold;
+	font-size: xx-small;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	margin-top: 0;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+.loadingBar 
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: #0000FF;
+	background-color: #E2E7FF;
+	border-top: 1px solid #003099;
+	border-left: 1px solid #003099;
+	border-bottom: 2px solid #003099;
+	border-right: 2px solid #003099;
+}
+
+.textoDestacadoRojo
+{
+	color: #FF0000;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.textoDestacadoVerde
+{
+	color: #00FF00;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+
+/*
+ * Definición de estilos para los controles
+ */
+
+.inputSubmit 
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	background-color: #00FF00;
+	border-bottom: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-top: #FFFFFF 1px solid;
+	cursor: pointer;
+}
+
+.inputButton 
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	background-color: #EEEEEE;
+	border-bottom: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-top: #FFFFFF 1px solid;
+	cursor: pointer;
+}
+
+.inputReset 
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	background-color: #EEEEEE;
+	border-bottom: #000000 1px solid;
+	border-right: #000000 1px solid;
+	border-left: #FFFFFF 1px solid;
+	border-top: #FFFFFF 1px solid;
+	cursor: pointer;
+}
+
+.inputText 
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	color: #000000;
+	border: #000000 1px solid;
+}
+
+.inputPassword 
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	color: #000000;
+	border: #000000 1px solid;
+}
+
+.inputRadio
+{
+	cursor: pointer;
+	border: 0;
+}
+
+.inputCheckbox 
+{
+	cursor: pointer;
+	border: 0;
+	width: 30px;
+}
+
+.inputMaskNumber
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	color: #000000;
+	text-align: right;
+	border: #000000 1px solid;
+}
+
+.inputMaskDateHour
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	color: #000000;
+	border: #000000 1px solid;
+}
+
+.inputMaskHour
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	color: #000000;
+	border: #000000 1px solid;
+}
+
+.textArea
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+    color: #000000;
+	border: #000000 1px solid;
+}
+
+.selectOne 
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	color: #000000;
+	border: #000000 1px solid;
+	z-index: 0;
+}
+
+.selectMultiple
+{
+    font-family: Verdana, Tahoma, Sans-Serif; 
+	font-size: 11px;
+	color: #000000;
+	border: #000000 1px solid;
+	z-index: 0;
+}
+
+input:focus, textarea:focus, select:focus 
+{ 
+	background-color: #FFFFDD;
+}
+
+.inputDisabled
+{
+	background-color: #DDDDDD;
+	color: #555555;
+	cursor: not-allowed;
+}
