@@ -1,0 +1,9 @@
+fa fa-trash-o
+fa fa-edit
+fa fa-file
+fa fa-user
+fa fa-file-pdf-o
+fa fa-refresh
+fa fa-gear -- connfiguracion
+fa fa-table
+fa fa-floppy-o
